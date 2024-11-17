@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Litera&display=swap');
+
+body{
+    background-color: #f6f4f2;
+    
+}
+#sobre{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 19px;
+}
+.menu-btn img{
+    padding-bottom: 5px;
+}
+#sobre h2{
+    
+    font-weight: bold;
+}
+#Ncabe{
+    text-align: left;
+    padding-right: 48%;
+    font-family: 'Litera', sans-serif;
+    font-weight: bold;
+
+}
+.cabetu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Altura do cabeçalho */
+    
+}
+
+
+@media (max-width: 1440px) {
+    #Ncabe{
+        padding-right: 35%;
+    }
+}
+@media (max-width: 1262px) {
+    #Ncabe{
+        padding-right: 25%;
+    }
+}
+@media (max-width: 1037px) {
+    #Ncabe{
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 881px) {
+    #Ncabe{
+        padding-right: 1%;
+    }
+}
+@media (max-width: 770px) {
+    #Ncabe{
+        padding-right: 1%;
+    }
+}
+a{
+    text-decoration: none;
+    color: inherit;    
+}
+.cabe{
+    text-align: right;
+    background-color: #793600;
+    font-family: 'Litera', sans-serif;
+    font-weight: bold;
+   
+}
+.col menu{
+    background-color: #793600;
+    }
+.menuC{
+    padding-right: 50px;
+    
+}
+h2{
+    color: #6d3029;
+    
+}
+.contate{
+  
+}
+.abajur{
+    width: 70%;
+    height: 90%;
+}
+
+.cabeAll{
+    background-color: #793600;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #25D366; 
+    border-radius: 50%; 
+    padding: 9px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+    z-index: 1000;
+}
+
+.whatsapp-button img {
+    width: 50px; 
+    height: 50px; 
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+.fotoprin{
+    width: auto;
+    height: 550px;
+    margin-top: 40px;
+}
+@media (min-width: 768px) {
+.fotop{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+h2{
+    padding: 20px;
+}
+.p{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+}
+#terapia{
+    padding-top: 50px;
+    font-family: 'Litera', sans-serif;
+
+}
+#terapia p{
+    font-size: 20px;
+    font-family: 'Litera', sans-serif;
+
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #793600;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.sidebar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.2s;
+    font-family: 'Litera', sans-serif;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    background-color: #793600;
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 30px;
+    color: #f1f1f1;
+}
+.cor{
+    background-color: #495057;
+}
+.menu-btn {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffffff;
+    display: none;
+    font-family: 'Litera', sans-serif;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .menu-btn {
+        display: inline-block;
+    }
+    .header-links {
+        display: none; 
+    }
+    .fotop{
+        height: auto;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    h2{
+        padding: 20px;
+        height: auto;
+        width: 100%;
+    }
+    .p{
+        padding: 20px;
+        height: auto;
+        width: 100%;
+    }
+}
+
+.perguntas{ 
+    text-align: center;
+}
+.faq-section {
+    margin: 20px 0;
+}
+
+.faq-question {
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;    
+    color: black;
+    border: none;
+    border-radius: 30px 15px 30px 15px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.faq-question:hover {
+    background-color: #793600;
+    color: white;
+    font-family: 'Sorts Mill Goudy', serif;
+
+}
+
+.faq-answer {
+    padding: 0 15px; 
+    max-height: 0; 
+    overflow: hidden; 
+    background-color: #f8f9fa;
+    border: 0px solid #ced4da;
+    transition: max-height 0.5s ease; 
+    font-family: 'Sorts Mill Goudy', serif;
+
+}
+
+.faq-answer.open {
+    max-height: 300px; 
+    padding: 10px; 
+}
+.hCont{ 
+    text-align: center;
+}
+
+.infoCont{
+    text-align: center;
+}
+
+.contato {
+    margin-bottom: 20px;
+    
+     
+     
+    font-size: 130%;
+    /*z-index: 1000;*/
+    padding-bottom: 50px;
+}
+.imgContato{
+    background-color: #25D366; 
+    padding: 15px; 
+    border-radius: 50%; 
+    width: 110px;
+    height: 100px;
+    
+}
+.imgContato:hover{
+    background-color: white; 
+    padding: 15px; 
+  
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+    width: 110px;
+    height: 100px;
+}
+
+.footer {
+    background-color: #793600;
+    color: white; 
+    padding: 20px; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+}
+.crp{
+
+}
+
+.direitos{
+    text-align: right;
+    
+}
+
+.footer a {
+    color: #ffffff; 
+    text-decoration: none; 
+    
+}
+
+.footer a:hover {
+    text-decoration: underline; 
+    
+}
+.roda{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: bold;
+}
